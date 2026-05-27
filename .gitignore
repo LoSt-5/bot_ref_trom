@@ -1,0 +1,68 @@
+# Секреты и локальная конфигурация
+.env
+.env.*
+!.env.example
+config_local.py
+secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Виртуальные окружения
+.venv/
+venv/
+ENV/
+env/
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ОС
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+.cache/
+
+# Jupyter / тестовые артефакты
+.ipynb_checkpoints/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Вспомогательные скрипты генерации (не хранить в репозитории)
+doc/_generate_diagrams.py
